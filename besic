@@ -1,1 +1,9 @@
 ls -a => get hidden files
+git config -l => got all infomation you filled
+git config --list => got all infomation you filled
+git config --global user.name "rohan dhiman"
+git config --global user.email "rohanvfx15@gmail.com"
+
+git remote add origin repostrylinkhere
+git remote -v => show list of remote
+git push origin -u master => u mean upstream
