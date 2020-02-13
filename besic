@@ -7,3 +7,11 @@ git config --global user.email "rohanvfx15@gmail.com"
 git remote add origin repostrylinkhere
 git remote -v => show list of remote
 git push origin -u master => u mean upstream
+
+git add filename => single file
+git add views/*  => views folder inside all files
+git add . => every files
+
+git push origin master
+
+git commit -am "add all files"
