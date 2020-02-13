@@ -15,3 +15,42 @@ git add . => every files
 git push origin master
 
 git commit -am "add all files"
+
+git branch dev1 => create new branch
+git branch => got all list of branch
+git checkout dev1 => change branch
+git branch -D dev1 => delete branch
+git checkout -b demo => create branch and checkout 
+
+git push origin branchnamehere
+after that merge this branch in master
+after that switch master branch use git pull request 
+git pull => use get all code of master
+
+
+first work rk branch after that commit that changes
+and create new branch of rk to rkfix-> so again this changes
+
+so merge rkfix into rk
+first select rk branch 
+after that use (git merge rkfix)
+
+always pull request don't use local branch 
+example rk branch don't merge in master
+we can merge it's not good idea
+git merge rk; // we are currently in master branch
+
+
+...............................................
+git checkout -b features
+git push origin features
+
+// remove everything
+rm -rf foldername
+
+git branch -a => all branch local and remote control
+git branch namhere =>switch branch
+
+// remove branch from github/ remotely
+don't remove it because other people also working on that
+git push origin --delete features
