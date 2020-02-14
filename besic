@@ -68,5 +68,8 @@ git push origin --delete features
 git push origin -u features // upload branch on server
 
 
+// already in features branch
+git branch --unset-upstream
 
+git push origin -u features
 
