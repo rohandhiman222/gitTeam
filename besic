@@ -76,3 +76,16 @@ git push origin -u features
 // by default we have use git pull origin form
 // git push --set-upstream origin form
 after we can use => git push
+
+if change same line that time get conflit other no
+conflit be care full
+if work same file don't warry 
+
+contribute any project first select (Fork) button
+after that you got that reposotry inside your reposotry
+make clone your reposotry now
+after that create new branch work on that branch
+after that changes push your branch
+git push origin mybranch
+we pushing our reposotry not effected origin reposotry
+     
