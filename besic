@@ -88,4 +88,30 @@ after that create new branch work on that branch
 after that changes push your branch
 git push origin mybranch
 we pushing our reposotry not effected origin reposotry
-     
+
+
+get latest log commit => git log -1
+change commit name => git commit --amend   
+if you push remotely don't use --amend 
+because if some already commit that commit changes
+if not body commit then you canse --amend commit  
+
+
+
+// tip contribute
+first fork use pull origing also 
+add url of origin reposotry go to his profile
+copy that url
+git remote add upstream originreposotryurlhere
+git pull upstream master // this command help us origin changes get
+git merge master // in our branch
+
+// one more tips
+git add . 
+git commit -m "add new";
+after that we release we have to add on more feature so 
+git add .
+git commit --amend // got one command both stage 
+if you got error use git push origin --force 
+don't do it remotely if someone also working that
+changes commit do locally if you pushed don't do it
