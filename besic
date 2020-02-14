@@ -54,3 +54,19 @@ git branch namhere =>switch branch
 // remove branch from github/ remotely
 don't remove it because other people also working on that
 git push origin --delete features
+
+
+very imporant tips 
+ if we have branch on remotely we can checkout with branch name 
+ example git checkout features
+ if don't have so we have to create git branch branchname here after that checkout
+
+remove from remotely branch
+git push origin --delete features
+
+
+git push origin -u features // upload branch on server
+
+
+
+
